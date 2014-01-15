@@ -67,6 +67,8 @@ public class MainActivity extends Activity {
 
         getActionBar().setDisplayHomeAsUpEnabled(true);
         getActionBar().setHomeButtonEnabled(true);
+
+        selectItem(0);
     }
     @Override
     protected void onPostCreate(Bundle savedInstanceState) {
